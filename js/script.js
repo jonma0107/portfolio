@@ -64,5 +64,17 @@ function linkAction(){
 }
 
 
-navlink.forEach(n => n.addEventListener('click', linkAction))
+navLink.forEach(n => n.addEventListener('click', linkAction))
 console.log("Remove menu profile is working")
+
+
+// ======================= Typewriter Effect ======================
+// import Typewriter from 'typewriter-effect/dist/core';
+
+new Typewriter('#typewriter', {
+  strings: ['JoNaThAn MeZa', 'Software Developer', 'Full-Stack', 'Mobile & Web Development', 'Colombia'],
+  autoStart: true,
+  loop: true,
+  cursor: "|"
+});
+console.log("Typewriter effect is working")
