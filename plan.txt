@@ -14,3 +14,8 @@ left -> image
 right -> text
 below image -> experience
 
+Skills
+card -> software skills
+right -> designs
+
+
