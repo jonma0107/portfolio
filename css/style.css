@@ -172,9 +172,9 @@ a{
 }*/
 
 img{
-	max-width: 40%;
-	/*height: auto;*/
-	justify-self: center;
+	max-width: 100%;
+	height: auto;
+	/*justify-self: center;*/
 }
 
 
