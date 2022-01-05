@@ -7,3 +7,10 @@ Main
 	PORTFOLIO
 	CONTACT ME
 Footer	
+
+
+About
+left -> image
+right -> text
+below image -> experience
+
