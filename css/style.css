@@ -165,16 +165,15 @@ a{
 	text-decoration: none;
 } 
 
-/*video{
+video{
 	max-width: 100%;
 	height: auto;
 	justify-self: center;
-}*/
+}
 
 img{
 	max-width: 100%;
 	height: auto;
-	/*justify-self: center;*/
 }
 
 
@@ -510,8 +509,8 @@ img{
 	padding-top: 1rem;
 }
 .about__img{
-	width: 200px;
-	border-radius: .5rem;
+	width: 350px;
+	border-radius: 1.5rem;
 	/*justify-content: center;
 	align-items: center;*/
 	margin-bottom: var(--mb-2);
