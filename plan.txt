@@ -19,3 +19,9 @@ card -> software skills
 right -> designs
 
 
+Timeline Designs
+Education
+line - date
+card - title
+		institute
+		details - unfolded
