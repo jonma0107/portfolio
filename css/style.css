@@ -741,7 +741,7 @@ img{
 	/*display: flex;
 	justify-content: space-around;*/
 	max-height: 0;
-	padding top: var(--mb-1);
+	padding: var(--mb-1);
 	overflow: hidden;
 	visibility: hidden;
 	transform: rotateX(-180deg);
