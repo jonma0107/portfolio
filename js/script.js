@@ -83,7 +83,7 @@ console.log("Typewriter effect is working")
 // ============================ Portfolio Swiper ======================
 
 var swiper = new Swiper(".blog-slider", {
-        cssMode: true,
+        // cssMode: true,
         spaceBetween: 30,
         effect: 'fade',
         loop: true,
