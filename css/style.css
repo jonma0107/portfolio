@@ -649,8 +649,8 @@ img{
 
 .card_skill .contentBx h2{
 	position: relative;
-	font-weight: var(--font-medium);
-	color: var(--text-color);
+	font-weight: var(--font-bold);
+	/*color: var(--text-color);*/
 	margin: 0;
 	padding: 0;
 }
