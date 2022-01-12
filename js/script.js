@@ -102,3 +102,8 @@ var swiper = new Swiper(".blog-slider", {
         keyboard: true,
       });
 console.log("Portfolio Swiper is working")
+
+
+
+
+
