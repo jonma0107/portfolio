@@ -1230,3 +1230,31 @@ form textarea{
 .footer__social{
 	color: #fff;
 }
+
+
+/* ===================== SCROLL UP ================== */
+
+.scrollup{
+	position: fixed;
+	right: 1rem;
+	bottom: -20%;
+	background-color: var(--first-color);
+	opacity: 0.8;
+	padding: 0 var(--mb-0-5);
+	border-radius: 0.5rem;
+	z-index: var(--z-tooltip);
+	transition: 0.4s;
+}
+.scrollup:hover{
+	background-color: var(--first-color-alt);
+}
+.scrollup__icon{
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+/* SHOW SCROLL */
+
+.show-scroll{
+	bottom: 5rem;
+}
