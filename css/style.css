@@ -1195,6 +1195,8 @@ form textarea{
 }
 .footer__links{
 	display: flex;
+	/*align-items: center;*/
+	justify-content: center;
 	flex-direction: column;
 	row-gap: 1.5rem;
 }
@@ -1202,8 +1204,12 @@ form textarea{
 	color: var(--first-color-lighter);
 }
 .footer__socials{
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
 	font-size: 1.5rem;
 	margin-right: var(--mb-1-5);
+	column-gap: var(--mb-1);
 }
 .footer__social{
 	margin: var(--mb-0-5);
