@@ -355,7 +355,7 @@ img{
 
 /* ===================== HOME STYLING ================== */
 .home{
-	height: 70vh;
+	/*height: 70vh;*/
 	align-content: space-between;
 	/*margin-top: var(--mb-3);*/
 	margin-top: var(--mb-5);
