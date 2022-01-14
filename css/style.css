@@ -357,8 +357,8 @@ img{
 .home{
 	height: 70vh;
 	align-content: space-between;
-	/*margin-top: var(--mb-3);*/
-	margin-top: var(--mb-5);
+	margin-top: var(--mb-3);
+	/*margin-top: var(--mb-5);*/
 	padding-bottom: 0;
 	/*margin-bottom: 6rem;*/
 	/*margin-bottom: var(--mb-2);*/
@@ -1339,7 +1339,32 @@ form textarea{
 }
 /* Medium size Screen devices */
 @media screen and (max-width: 568px){
-	
+	.home__content{
+		grid-template-columns: max-content 1fr;
+	}
+	.section{
+		min-height: 60vh;
+	}
+	.home__data{
+		grid-column: initial;
+	}
+	.about__container,
+	.skill__container,
+	.portfolio__container,
+	.contact__container,
+	.footer__container{
+		grid-template-columns: repeat(1, 1fr);
+		padding-left: var(--mb-1);
+		padding-right: var(--mb-1);
+	}
+	/*.qualification__sections{
+		display: grid;
+		grid-template-columns: 0.85fr;
+		justify-content: center;
+	}*/
+	.portfolio{
+		padding-bottom: var(--mb-0-25);
+	}
 }
 /* Large size Screen devices*/
 @media screen and (min-width: 768px){
