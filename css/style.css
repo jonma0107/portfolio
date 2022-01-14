@@ -117,7 +117,7 @@ body.dark-theme{
 .nav__btns{
 	display: flex;
 	align-items: center;
-	padding-left: var(--mb-0-5);
+	padding-left: var(--mb-0-4);
 	margin: 0;
 	margin-top: -5px;
 	gap: var(--mb-0-75);

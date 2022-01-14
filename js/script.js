@@ -11,7 +11,7 @@ const selectedIcon = localStorage.getItem('selected-icon')
 const getCurrentTheme = ()  => document.body.classList.contains(darkTheme)?'dark':'light'
 const getCurrentIcon = ()  => document.body.classList.contains(iconTheme)?'uil-moon':'uil-sun'
 
-// We need to validate if the userhas previouly chosen a topic
+// We need to validate if the user has previouly chosen a topic
 if (selectedTheme) {
 	document.body.classList[selectedTheme === 'dark'?'add':'remove'](darkTheme)
 	themeButton.classList[selectedIcon === 'uil-moon'?'add':'remove'](iconTheme)
