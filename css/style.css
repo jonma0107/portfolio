@@ -181,7 +181,7 @@ img{
 .section{
 	padding: 2rem 0 4rem;
 	margin: auto;
-	min-height: 80vh;
+	/*min-height: 80vh;*/
 }
 
 .section__title{
@@ -361,7 +361,7 @@ img{
 	margin-top: var(--mb-5);
 	padding-bottom: 0;
 	/*margin-bottom: 6rem;*/
-	margin-bottom: var(--mb-2);
+	/*margin-bottom: var(--mb-2);*/
 
 }
 
