@@ -1303,8 +1303,24 @@ form textarea{
 		grid-template-columns: .25fr 3fr;
 	}
 
+	/*.home__scroll{
+      margin-top: var(--mb-0-25);
+    }
+
+    .home__scroll-mouse{
+      margin-top: var(--mb-0-25);
+    }
+
+    .about{
+      margin-top: 6rem;
+    }*/
+
 	.qualification__data{
 		gap:  0.5rem;
+	}
+
+	.contact_mail{
+		margin-left: var(--mb-1-5);
 	}
 
 	::-webkit-scrollbar{
