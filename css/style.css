@@ -356,7 +356,7 @@ img{
 .home{
 	height: 70vh;
 	align-content: space-between;
-	margin-top: var(--mb-3);
+	margin-top: var(--mb-5);
 	padding-bottom: 0;
 	/*margin-bottom: 6rem;*/
 	/*margin-bottom: var(--mb-2);*/
