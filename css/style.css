@@ -358,6 +358,7 @@ img{
 	align-content: space-between;
 	margin-top: var(--mb-3);
 	padding-bottom: 0;
+	/*margin-bottom: 6rem;*/
 }
 
 .home__container{
@@ -449,7 +450,7 @@ img{
 }
 
 /* SCROLL DOWN */
-@keyframes scrollDown{
+/*@keyframes scrollDown{
 	0%{
 		margin-top: 14px;
 		opacity: 0;
@@ -470,9 +471,9 @@ img{
 		margin-top: 30px;
 		opacity: 0;
 	}
-}
+}*/
 
-.home__scroll{
+/*.home__scroll{
 	display: flex;
 	justify-content: center;
 	margin-top: var(--mb-1);
@@ -491,7 +492,7 @@ img{
 	margin-top: var(--mb-3);
 	/*animation: scrollDown 2s infinite;*/
 }
-.home__scroll-name{
+/*.home__scroll-name{
 	font-size: var(--small-font-size);
 	color: var(--title-color);
 	font-weight: var(--font-medium);
@@ -499,7 +500,7 @@ img{
 }
 .home__scroll-arrow{
 	font-size: var(--h3-font-size);
-}
+}*/
 
 /* ===================== ABOUT STYLING ================== */
 /*.about__container{
