@@ -117,7 +117,7 @@ body.dark-theme{
 .nav__btns{
 	display: flex;
 	align-items: center;
-	padding-left: var(--mb-0-4);
+	padding-left: var(--mb-0-5);
 	margin: 0;
 	margin-top: -5px;
 	gap: var(--mb-0-75);
@@ -274,7 +274,7 @@ img{
 .nav__toggle{
 	font-size: var(--h3-font-size);
 	cursor: pointer;
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 
 .nav__toggle:hover{
@@ -293,7 +293,7 @@ img{
 		left: 0;
 		width: 100%;
 		background-color: var(--body-color);
-		padding: 2rem 1.5rem 4rem;
+		padding: 1rem 1.5rem 3rem;
 		box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 		border-radius: 1.5rem 1.5rem 0 0;
 		transition: .5s;
@@ -356,6 +356,7 @@ img{
 .home{
 	height: 70vh;
 	align-content: space-between;
+	/*margin-top: var(--mb-3);*/
 	margin-top: var(--mb-5);
 	padding-bottom: 0;
 	/*margin-bottom: 6rem;*/
