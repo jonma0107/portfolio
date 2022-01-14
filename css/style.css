@@ -358,7 +358,9 @@ img{
 	align-content: space-between;
 	margin-top: var(--mb-3);
 	padding-bottom: 0;
-	margin-bottom: 6rem;
+	/*margin-bottom: 6rem;*/
+	/*margin-bottom: var(--mb-2);*/
+
 }
 
 .home__container{
@@ -1312,6 +1314,10 @@ form textarea{
     }
 
     .about{
+      margin-top: 6rem;
+    }*/
+
+   /* .about{
       margin-top: 6rem;
     }*/
 
