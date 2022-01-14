@@ -293,9 +293,9 @@ img{
 		left: 0;
 		width: 100%;
 		background-color: var(--body-color);
-		padding: 1rem 1.5rem 1.5rem;
+		padding: 2rem 2rem 2rem;
 		box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-		border-radius: 1.5rem 1.5rem 0 0;
+		border-radius: 2rem 2rem 0 0;
 		transition: .5s;
 	}
 }
@@ -303,13 +303,14 @@ img{
 
 .nav__list{
 	grid-template-columns: repeat(3, 1fr);
-	gap: 2rem; 
+	gap: 1rem; 
 }
 
 .nav__link{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	justify-content: center;
+	/*align-items: center;*/
 	font-size: var(--small-font-size);
 	color:  var(--title-color);
 	font-weight: var(--font-medium);
