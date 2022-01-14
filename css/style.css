@@ -430,11 +430,9 @@ img{
 }
 .Typewriter__wrapper{
 	text-align: center;
-	/*font-size: var(--h3-font-size);*/
-	font-size: var(--big-font-size);
+	font-size: var(--h3-font-size);
 	font-family: var(--robotomono-font);
-	/*font-weight: var(--font-medium);*/
-	font-weight: var(--h4-font-size);
+	font-weight: var(--font-medium);
 	color: var(--mainText);
 }
 .Typewriter__cursor{
