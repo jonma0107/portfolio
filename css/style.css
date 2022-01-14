@@ -1278,3 +1278,24 @@ form textarea{
 ::-webkit-scrollbar-thumb:hover{
 	background-color: var(--text-color-light);
 }
+
+
+/* ===================== MEDIA QUERIES ================== */
+
+
+/* Small Screen */
+@media screen and (max-width: 350px){
+
+}
+/* Medium size Screen devices */
+@media screen and (max-width: 568px){
+	
+}
+/* Large size Screen devices*/
+@media screen and (min-width: 768px){
+	
+}
+/* larger size Screen devices */
+@media screen and (max-width: 1024px){
+	
+}
