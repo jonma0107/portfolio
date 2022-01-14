@@ -1324,7 +1324,7 @@ form textarea{
 	}
 
 	.contact_mail{
-		margin-left: var(--mb-1-5);
+		margin-left: var(--mb-1);
 	}
 
 	::-webkit-scrollbar{
