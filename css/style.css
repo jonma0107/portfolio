@@ -1285,7 +1285,36 @@ form textarea{
 
 /* Small Screen */
 @media screen and (max-width: 350px){
+	.container{
+		margin-left: var(--mb-0-25);
+		margin-right: var(--mb-1);
+	}
 
+	.nav__menu{
+		padding: 2rem 0.25rem 4rem;
+	}
+
+	.nav__list{
+		column-gap: 0;
+	}
+
+	.home__content{
+		grid-template-columns: .25fr 3fr;
+	}
+
+	.qualification__data{
+		gap:  0.5rem;
+	}
+
+	::-webkit-scrollbar{
+		width: 0.4rem;
+		border-radius: 0.4rem;
+	}
+
+	::-webkit-scrollbar-thumb{
+		background-color: var(--scroll-thumb-color);
+		border-radius: 0.2rem;
+	}
 }
 /* Medium size Screen devices */
 @media screen and (max-width: 568px){
