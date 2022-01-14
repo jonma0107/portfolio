@@ -430,9 +430,11 @@ img{
 }
 .Typewriter__wrapper{
 	text-align: center;
-	font-size: var(--h3-font-size);
+	/*font-size: var(--h3-font-size);*/
+	font-size: var(--big-font-size);
 	font-family: var(--robotomono-font);
-	font-weight: var(--font-medium);
+	/*font-weight: var(--font-medium);*/
+	font-weight: var(--h4-font-size);
 	color: var(--mainText);
 }
 .Typewriter__cursor{
@@ -1317,11 +1319,7 @@ form textarea{
       margin-top: 6rem;
     }*/
 
-   /* .about{
-      margin-top: 6rem;
-    }*/
-
-	.qualification__data{
+   	.qualification__data{
 		gap:  0.5rem;
 	}
 
