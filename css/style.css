@@ -358,7 +358,7 @@ img{
 	align-content: space-between;
 	margin-top: var(--mb-3);
 	padding-bottom: 0;
-	/*margin-bottom: 6rem;*/
+	margin-bottom: 6rem;
 }
 
 .home__container{
@@ -491,7 +491,7 @@ img{
 	font-size: var(--big-font-size);
 	margin-top: var(--mb-3);
 	/*animation: scrollDown 2s infinite;*/
-}
+/*}*/
 /*.home__scroll-name{
 	font-size: var(--small-font-size);
 	color: var(--title-color);
