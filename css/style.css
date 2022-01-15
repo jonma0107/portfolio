@@ -1533,11 +1533,11 @@ form textarea{
 		padding-left: var(--mb-1);
 		padding-right: var(--mb-1);
 	}
-	/*.qualification__sections{
+	.qualification__sections{
 		display: grid;
 		grid-template-columns: 0.85fr;
 		justify-content: center;
-	}*/
+	}
 	.portfolio{
 		padding-bottom: var(--mb-0-25);
 	}
@@ -1708,24 +1708,21 @@ form textarea{
 		padding: 2rem;	
    	}
 
-  }
+}
 
-  /* Larger size Screen devices */
-  @media screen and (min-width: 1024px){
-      .header,
-      .main,
-      .footer__container{
-        padding: 0;
-      }
+/* Larger size Screen devices */
+@media screen and (min-width: 1024px){
+	.header,
+    .main,
+    .footer__container{
+    	padding: 0;
+    }
 
-
-      .nav__list{
+    .nav__list{
 		column-gap: 1.5rem;
 	}
 
-
-
-      .home__social{
+    .home__social{
 	
 		row-gap: 2rem;
 		column-gap: normal;
@@ -1745,44 +1742,37 @@ form textarea{
         height: 85vh;
       }*/
 
-      .home__social{
-        transform: translateX(-7.5rem);
-      }
+    .home__social{
+    	transform: translateX(-7.5rem);
+    }
 
-      .contact__form{
+    .contact__form{
         width: 460px;
-      }
+    }
 
-      .contact__inputs{
+    .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
 
-      .contact__container{
+    .contact__container{
         padding-left: var(--mb-3);
         padding-top: var(--mb-3);
         row-gap: 4rem;
-      }
+    }
 
-      .form{
+    .form{
         min-width: 700px;
-      }
-  }
-
-  .uil-moon:before {
-    content: '\ea8b';
-    font-size: x-large;
+    }
 }
 
-.uil-sun:before {
-    content: '\e9cc';
-    font-size: x-large;
-}
+  	.uil-moon:before {
+    	content: '\ea8b';
+    	font-size: x-large;
+	}
 
-/* Large size Screen devices*/
-/*@media screen and (min-width: 768px){
-	
-}*/
-/* larger size Screen devices */
-/*@media screen and (max-width: 1024px){
-	
-}*/
+	.uil-sun:before {
+    	content: '\e9cc';
+    	font-size: x-large;
+	}
+
+
