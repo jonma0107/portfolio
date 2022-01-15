@@ -1289,7 +1289,7 @@ form textarea{
 
 
 /* Small Screen */
-@media screen and (min-width: 321px){
+@media screen and (max-width: 321px){
 	.container{
 		margin-left: var(--mb-0-25);
 		margin-right: var(--mb-1);
