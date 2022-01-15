@@ -1289,7 +1289,7 @@ form textarea{
 
 
 /* Small Screen */
-@media screen and (max-width: 350px){
+@media screen and (min-width: 321px){
 	.container{
 		margin-left: var(--mb-0-25);
 		margin-right: var(--mb-1);
@@ -1305,6 +1305,14 @@ form textarea{
 
 	.home__content{
 		grid-template-columns: .25fr 3fr;
+	}
+
+	.container{
+		padding-right: 10px;
+	}
+
+	.section{
+		margin: auto;
 	}
 
 	/*.home__scroll{
