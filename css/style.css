@@ -416,7 +416,9 @@ img{
 	padding: 1.5rem;
 }*/
 .home__title{
-	text-align: center;
+	display: inline-block;
+	/*justify-content: center;*/
+	/*text-align: center;*/
 	font-size: var(--h3-font-size);
 	color: var(--text-color);
 	margin-top: var(--mb-1-5);
