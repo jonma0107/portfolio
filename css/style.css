@@ -286,6 +286,8 @@ img{
 	font-family: var(--robotomono-font);
 }
 
+
+
 @media screen and (max-width:  768px){
 	.nav__menu{
 		position: fixed;
@@ -430,7 +432,7 @@ img{
 }
 
 #typewriter{
-	text-align: center;
+	/*text-align: center;*/
 	margin-top: var(--mb-1);
 	margin-bottom: var(--mb-2);
 	/*color: var(--text-color);
@@ -438,7 +440,8 @@ img{
 	font-size: var(--h2-font-size);*/
 }
 .Typewriter__wrapper{
-	text-align: center;
+
+	/*text-align: center;*/
 	font-size: var(--h2-font-size);
 	font-family: var(--robotomono-font);
 	font-weight: var(--font-medium);
@@ -1358,6 +1361,9 @@ form textarea{
 		background-color: var(--scroll-thumb-color);
 		border-radius: 0.2rem;
 	}
+
+
+
 }
 
 /* Small Screen */
@@ -1560,7 +1566,7 @@ form textarea{
 
     .nav__list{
       display: flex;
-      column-gap: 1rem;
+      column-gap: 5rem;
     }
 
     .nav__menu{
