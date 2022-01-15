@@ -1589,7 +1589,7 @@ form textarea{
 
     .nav__list{
       display: flex;
-      column-gap: 5rem;
+      column-gap: 2.5rem;
     }
 
     .nav__menu{
@@ -1688,6 +1688,13 @@ form textarea{
       .footer__container{
         padding: 0;
       }
+
+
+      .nav__list{
+		column-gap: 1.5rem;
+	}
+
+
 
       .home__social{
 	
