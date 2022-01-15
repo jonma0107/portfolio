@@ -447,7 +447,7 @@ img{
 .Typewriter__wrapper{
 
 	/*text-align: center;*/
-	font-size: var(--h2-font-size);
+	font-size: var(--h3-font-size);
 	font-family: var(--robotomono-font);
 	font-weight: var(--font-medium);
 	color: var(--mainText);
