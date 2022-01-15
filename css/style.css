@@ -445,11 +445,11 @@ img{
 }
 
 .home__subtitle{
-	text-align: center;
+	text-align: left;
 	font-size: var(--h3-font-size);
 	color: var(--text-color);
 	font-weight: var(--font-medium);
-	margin-bottom: var(--mb-1);
+	margin-bottom: var(--mb-0-5);
 	padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
@@ -1290,6 +1290,62 @@ form textarea{
 
 /* Small Screen */
 @media screen and (max-width: 321px){
+	.container{
+		margin-left: var(--mb-0-25);
+		margin-right: var(--mb-1);
+	}
+
+	.nav__menu{
+		padding: 2rem 0.25rem 4rem;
+	}
+
+	.nav__list{
+		column-gap: 0;
+	}
+
+	.home__content{
+		grid-template-columns: .25fr 3fr;
+	}
+
+	.container{
+		padding-right: 10px;
+	}
+
+	
+
+	/*.home__scroll{
+      margin-top: var(--mb-0-25);
+    }
+
+    .home__scroll-mouse{
+      margin-top: var(--mb-0-25);
+    }
+
+    .about{
+      margin-top: 6rem;
+    }*/
+
+   	.qualification__data{
+		gap:  0.5rem;
+	}
+
+	.contact_mail{
+		margin-left: var(--mb-1);
+	}
+
+	::-webkit-scrollbar{
+		width: 0.4rem;
+		border-radius: 0.4rem;
+	}
+
+	::-webkit-scrollbar-thumb{
+		background-color: var(--scroll-thumb-color);
+		border-radius: 0.2rem;
+	}
+}
+
+/* Small Screen */
+@media screen and (max-width: 368px){
 	.container{
 		margin-left: var(--mb-0-25);
 		margin-right: var(--mb-1);
