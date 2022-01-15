@@ -330,9 +330,9 @@ img{
 
 .nav__close{
 	position: absolute;
-	right: 1.3rem;
+	right: 1rem;
 	bottom: .5rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	cursor: pointer;
 	color: var(--first-color);
 }
