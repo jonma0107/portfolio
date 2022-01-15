@@ -407,7 +407,7 @@ img{
 .home__data{
 	grid-area: home__content;
 	align-content: center;
-	text-align: center;
+	text-align: left;
 }
 .home__welcome{
 	text-align: center;
@@ -424,6 +424,7 @@ img{
 }
 
 #typewriter{
+	text-align: center;
 	margin-top: var(--mb-1);
 	margin-bottom: var(--mb-2);
 	/*color: var(--text-color);
@@ -432,7 +433,7 @@ img{
 }
 .Typewriter__wrapper{
 	text-align: center;
-	font-size: var(--h3-font-size);
+	font-size: var(--h2-font-size);
 	font-family: var(--robotomono-font);
 	font-weight: var(--font-medium);
 	color: var(--mainText);
@@ -449,7 +450,7 @@ img{
 	font-size: var(--h3-font-size);
 	color: var(--text-color);
 	font-weight: var(--font-medium);
-	margin-bottom: var(--mb-0-5);
+	margin-bottom: var(--mb-0-6);
 	padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
