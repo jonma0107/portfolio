@@ -1368,6 +1368,13 @@ form textarea{
 	}
 
 
+	 .home__social{
+	
+		row-gap: 2rem;
+		column-gap: normal;
+		padding-top: 5rem;
+		padding: 2rem;	
+   	}
 
 }
 
