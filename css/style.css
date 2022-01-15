@@ -409,12 +409,12 @@ img{
 	align-content: center;
 	text-align: left;
 }
-.home__welcome{
+/*.home__welcome{
 	text-align: center;
 	font-size: var(--small-font-size);
 	color: var(--text-color);
 	padding: 1.5rem;
-}
+}*/
 .home__title{
 	text-align: center;
 	font-size: var(--h3-font-size);
@@ -513,7 +513,7 @@ img{
 }*/
 .about{
 	padding-top: 1rem;
-	margin-top: 7rem;
+	margin-top: 3rem;
 }
 .about__img{
 	width: 350px;
