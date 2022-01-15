@@ -801,6 +801,7 @@ img{
 }
 .qualification__start-icon{
 	font-size: var(--h3-font-size);
+	color: var(--mainText);
 }
 
 
@@ -1336,6 +1337,11 @@ form textarea{
 		margin-left: var(--mb-1-5);
 	}
 
+	/*.qualification__start-icon{
+        position: absolute;
+        transform: translateY(60%);    
+      }*/
+
 	::-webkit-scrollbar{
 		width: 0.4rem;
 		border-radius: 0.4rem;
@@ -1486,10 +1492,25 @@ form textarea{
 	.portfolio{
 		padding-bottom: var(--mb-0-25);
 	}
+	.contact{
+		padding-top: 0;
+	}
 	.contact_mail{
 		margin-left: var(--mb-1-5);
 	}
+	/*.qualification__start-icon{
+        position: absolute;
+        transform: translateY(60%);    
+      }*/
 }
+
+@media screen and (min-width: 768px) and (min-width: 321px){
+	.qualification__start-icon{
+        position: absolute;
+        transform: translateY(60%);    
+      }
+}
+
 /* Large size Screen devices*/
 @media screen and (min-width: 768px){
 	
