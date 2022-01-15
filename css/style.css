@@ -307,17 +307,13 @@ img{
 
 .nav__list{
 	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem; 
+	gap: 2rem; 
+	padding: 1rem;
 }
 
-.nav__link{
-	display: flex;
-	flex-direction: column;
-	/*justify-content: center;*/
-	/*align-items: center;*/
-	/*align-content: center*/;
-	/*justify-items: center;*/
-	text-align: center;
+.nav__link{	
+	display: grid;
+	justify-items: center;
 	font-size: var(--small-font-size);
 	color:  var(--title-color);
 	font-weight: var(--font-medium);
