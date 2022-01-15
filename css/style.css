@@ -232,7 +232,8 @@ img{
 
 /* ======================== LAYOUT =================== */
 .container{
-	margin-right: var(--mb-1);
+	/*margin-right: var(--mb-1);*/
+	margin-right: auto;
 }
 
 .grid{
