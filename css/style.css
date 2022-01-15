@@ -1369,7 +1369,7 @@ form textarea{
 		row-gap: 2rem;
 		column-gap: normal;
 		padding-top: 5rem;
-		padding: 2rem;	
+		padding: 0rem;	
    	}
 
 }
@@ -1439,7 +1439,7 @@ form textarea{
 		row-gap: 2rem;
 		column-gap: normal;
 		padding-top: 5rem;
-		padding: 2rem;	
+		padding: 0rem;	
    	}
 }
 
@@ -1509,12 +1509,12 @@ form textarea{
 		row-gap: 2rem;
 		column-gap: normal;
 		padding-top: 5rem;
-		padding: 2rem;	
+		padding: 0rem;	
    	}
 
 }
 /* Medium size Screen devices */
-@media screen and (min-width: 568px){
+@media screen and (max-width: 568px){
 	.home__content{
 		grid-template-columns: max-content 1fr;
 	}
@@ -1564,7 +1564,7 @@ form textarea{
 		row-gap: 2rem;
 		column-gap: normal;
 		padding-top: 5rem;
-		padding: 2rem;	
+		padding: 1rem;	
    	}
 }
 
@@ -1705,7 +1705,7 @@ form textarea{
 		row-gap: 2rem;
 		column-gap: normal;
 		padding-top: 5rem;
-		padding: 2rem;	
+		padding: 0rem;	
    	}
 
 }
