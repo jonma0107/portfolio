@@ -1514,7 +1514,7 @@ form textarea{
 
 }
 /* Medium size Screen devices */
-@media screen and (max-width: 568px){
+@media screen and (min-width: 568px){
 	.home__content{
 		grid-template-columns: max-content 1fr;
 	}
