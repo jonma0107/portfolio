@@ -1695,14 +1695,23 @@ form textarea{
 
       .home__social{
 	
-	column-gap: normal;
-	padding-top: 3rem;	
-	
-   }
+		row-gap: 2rem;
+		column-gap: normal;
+		padding-top: 5rem;
+		padding: 0rem;	
+   	}
 
-      #home{
+   	.home{
+   		margin-top: var(--mb-3);
+   	}
+
+   	.Typewriter__wrapper{
+   		font-size: var(--h1-font-size);
+   	}
+
+      /*#home{
         height: 85vh;
-      }
+      }*/
 
       .home__social{
         transform: translateX(-7.5rem);
