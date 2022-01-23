@@ -1,1 +1,148 @@
-const themeButton=document.getElementById("theme-button"),darkTheme="dark-theme",iconTheme="uil-sun",selectedTheme=localStorage.getItem("selected-theme"),selectedIcon=localStorage.getItem("selected-icon"),getCurrentTheme=()=>document.body.classList.contains(darkTheme)?"dark":"light",getCurrentIcon=()=>document.body.classList.contains(iconTheme)?"uil-moon":"uil-sun";selectedTheme&&(document.body.classList["dark"===selectedTheme?"add":"remove"](darkTheme),themeButton.classList["uil-moon"===selectedIcon?"add":"remove"](iconTheme)),themeButton.addEventListener("click",()=>{document.body.classList.toggle(darkTheme),themeButton.classList.toggle(iconTheme),localStorage.setItem("selected-theme",getCurrentTheme()),localStorage.setItem("selected-icon",getCurrentIcon())}),console.log("THEME SETTING WORKING");const navMenu=document.getElementById("nav-menu"),navToggle=document.getElementById("nav-toggle"),navClose=document.getElementById("nav-close");navToggle&&navToggle.addEventListener("click",()=>{navMenu.classList.add("show-menu")}),navClose&&navClose.addEventListener("click",()=>{navMenu.classList.remove("show-menu")}),console.log("MENU & SETTING WORKING");const navLink=document.querySelectorAll(".nav__link");function linkAction(){const e=document.getElementById("nav-menu");e.classList.remove("show-menu")}navLink.forEach(e=>e.addEventListener("click",linkAction)),console.log("Remove menu profile is working"),new Typewriter("#typewriter",{strings:["Jonathan Meza","Software Developer","Full-Stack"],autoStart:!0,loop:!0,cursor:"|"}),console.log("Typewriter effect is working");var swiper=new Swiper(".blog-slider",{spaceBetween:30,effect:"fade",loop:!0,mousewheel:{invert:!1},pagination:{el:".blog-slider__pagination",clickable:!0},keyboard:!0});function scrollUp(){const e=document.getElementById("scroll-up");560<=this.scrollY?e.classList.add("show-scroll"):e.classList.remove("show-scroll"),console.log("Scroll up being called and working")}console.log("Portfolio Swiper is working"),window.addEventListener("scroll",scrollUp);const sections=document.querySelectorAll("section[id]");function scrollActive(){var n=window.pageYOffset;sections.forEach(e=>{var t=e.offsetHeight,o=e.offsetTop-50,e=e.getAttribute("id");o<n&&n<=o+t?document.querySelector(".nav__menu a[href*="+e+"]").classList.add("active-link"):document.querySelector(".nav__menu a[href*="+e+"]").classList.remove("active-link")}),console.log("Section highlight working")}window.addEventListener("scroll",scrollActive);
+// ====================== DARK THEME ==========================
+const themeButton = document.getElementById('theme-button')
+const darkTheme = 'dark-theme'
+const iconTheme = 'uil-sun'
+
+// PREVIOUSLY SELECTED TOPIC (checking from local storage)
+const selectedTheme = localStorage.getItem('selected-theme')
+const selectedIcon = localStorage.getItem('selected-icon')
+
+// We obtain the current theme that the interface has by validatin the dark theme class
+const getCurrentTheme = ()  => document.body.classList.contains(darkTheme)?'dark':'light'
+const getCurrentIcon = ()  => document.body.classList.contains(iconTheme)?'uil-moon':'uil-sun'
+
+// We need to validate if the user has previouly chosen a topic
+if (selectedTheme) {
+	document.body.classList[selectedTheme === 'dark'?'add':'remove'](darkTheme)
+	themeButton.classList[selectedIcon === 'uil-moon'?'add':'remove'](iconTheme)
+}
+
+// Activate / Deactivate the theme manually with the button
+themeButton.addEventListener('click', () => {
+	// add or remove the dark/light icon -- icon theme
+	document.body.classList.toggle(darkTheme)
+	themeButton.classList.toggle(iconTheme)
+	// we save the theme and the curent icon that the user has chosen
+	localStorage.setItem('selected-theme', getCurrentTheme())
+	localStorage.setItem('selected-icon', getCurrentIcon()) 
+})
+console.log("THEME SETTING WORKING")
+
+
+// ======================= MENU SHOW & HIDDEN ======================
+const navMenu = document.getElementById('nav-menu')
+const navToggle = document.getElementById('nav-toggle')
+const navClose = document.getElementById('nav-close')
+
+// ================= MENU SHOW =================
+/* VALIDATE IF THE CONSTANT EXITS */
+if(navToggle){
+	navToggle.addEventListener('click', () => {
+		navMenu.classList.add('show-menu')
+	})
+}
+
+// ================= MENU SHOW =================
+/* VALIDATE IF THE CONSTANT EXITS */
+if (navClose) {
+	navClose.addEventListener('click', () => {
+		navMenu.classList.remove('show-menu')
+	})
+}
+
+
+console.log("MENU & SETTING WORKING")
+
+
+// ======================= REMOVE MENU PROFILE ======================
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction(){
+	const navMenu = document.getElementById('nav-menu')
+	// when we click on nav__links, we remove the show menu
+	navMenu.classList.remove('show-menu')
+}
+
+
+navLink.forEach(n => n.addEventListener('click', linkAction))
+console.log("Remove menu profile is working")
+
+
+// ============================ Typewriter Effect ======================
+// import Typewriter from 'typewriter-effect/dist/core';
+
+new Typewriter('#typewriter', {
+  strings: ['Jonathan Meza', 'Software Developer', 'Full-Stack'],
+  autoStart: true,
+  loop: true,
+  cursor: "|"
+});
+console.log("Typewriter effect is working")
+
+
+// ============================ Portfolio Swiper ======================
+
+var swiper = new Swiper(".blog-slider", {
+        // cssMode: true,
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+        mousewheel: {
+        	invert: false,
+        },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+        pagination: {
+          el: ".blog-slider__pagination",
+          clickable: true,
+        },
+        // mousewheel: true,
+        keyboard: true,
+      });
+console.log("Portfolio Swiper is working")
+
+
+// ============================ SCROLL UP ======================
+
+function scrollUp(){
+	const scrollup = document.getElementById('scroll-up');
+	// When the scroll higher than 560 viewpoint /height , then the scroll up icon showld appear and on clicking should reach top of the page
+	if (this.scrollY >= 560) {
+		scrollup.classList.add('show-scroll');
+	}
+	else {
+		scrollup.classList.remove('show-scroll')
+	}
+
+	console.log("Scroll up being called and working")			
+}
+
+window.addEventListener('scroll' , scrollUp)
+
+
+// ============================ SCROLL SECTION ACTIVE HIGHLIGHT ======================
+
+const sections = document.querySelectorAll('section[id]')
+
+function scrollActive(){
+	const scrollY = window.pageYOffset
+
+	sections.forEach(current => {
+		const sectionHeight = current.offsetHeight
+		const sectionTop = current.offsetTop - 50,
+		sectionId = current.getAttribute('id')
+
+		if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+			document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+		}else {
+			document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+		}
+	})
+
+
+	console.log("Section highlight working")
+
+}
+window.addEventListener('scroll' , scrollActive)
